@@ -1,0 +1,12 @@
+POST http://localhost:5000/authentication/authenticate
+content-Type: application/json
+
+{
+    "username": "hhuber",
+    "password": "quaxi"
+}
+
+#####
+
+GET http://localhost:5000/values/GetCovidFaelleBundeslaender
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiIxIiwidW5pcXVlX25hbWUiOlsiaGh1YmVyIiwiQWRtaW4iXSwiZ2l2ZW5fbmFtZSI6IkhhbnNpIiwiZmFtaWx5X25hbWUiOiJIdWJlciIsIm5iZiI6MTYwNDk1NDg5OSwiZXhwIjoxNjA0OTY5Mjk5LCJpYXQiOjE2MDQ5NTQ4OTl9.zlIFh7yljl6dtNZyWovWJmgCjWf8bw-hw4aUpS0V7yg

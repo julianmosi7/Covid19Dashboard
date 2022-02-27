@@ -1,0 +1,13 @@
+<h2>Login</h2>
+<div>
+    Benutzername: <input [(ngModel)]="username" />
+</div>
+<div>
+    Passwort: <input [(ngModel)]="password" />
+</div>
+<div>
+    <button (click)="login()">Login</button>
+</div>
+<div *ngIf="authenticationDto">{{authenticationDto|json}}</div>
+<div *ngIf="errorMessage"
+     class="error">Error: {{errorMessage}}</div>
